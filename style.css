@@ -6,7 +6,7 @@ body{font-family: 'Poppins', sans-serif;}
 /*---------
  Banner style
  ------------- */
-.container{width: 1060px;
+.container{width: 100%;
 height: 500px;
 background-color: #2D25A0;
 }
@@ -39,7 +39,7 @@ transition: 5s;}
 .blog-container{display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-gap: 22px;
-margin: 50px 130px;}
+margin: 6% 12%;}
 .blogs{width: 242px;
 height: 349px;
 box-shadow: rgb(128, 119, 119) 10px 40px 40px;}

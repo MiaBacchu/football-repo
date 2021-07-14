@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*----------
+ common style or utilities
+ ------------ */
+body{font-family: 'Poppins', sans-serif;}
+/*---------
+ Banner style
+ ------------- */
+.container{width: 1060px;
+height: 500px;
+background-color: #2D25A0;
+}
+.flex-container{display: flex;
+justify-content: space-between;
+}
+.content p{color: #FFFFFF;
+font-size: 47px;
+margin: 102px 67px 26px 123px;
+}
+.switch{display: flex;
+    align-items: center;
+background-color: #E02C6D
+;
+color: #FFFFFF;
+margin-left: 115px;
+padding: 10px 24px;}
+.football{width: 410px;
+    height: 323;
+    margin-top: 113px;
+    margin-right: 104px;
+overflow: hidden;}
+    .football img{width: 410px;
+        height: 323;}
+.football img:hover{transform: scale(2) rotate(360deg);
+transition: 5s;}
+/*-----------
+ blog-style 
+ ------------*/
+.blog-container{display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 22px;
+margin: 50px 130px;}
+.blogs{width: 242px;
+height: 349px;
+box-shadow: rgb(128, 119, 119) 10px 40px 40px;}
+.blog-thumbnail img{width: 220px;
+height: 188px;
+margin-top: 10px;
+margin-left: 10px;}
+.blogs>.blog-title{font-size: 20px;
+    font-weight: 700;
+color: #18191F;
+margin-left: 10px;}
+.blogs>.blog-details{font-size: 12px;
+color: #6C6C6C;
+margin-left: 10px;}
+/*--------
+ footer style
+ -------- */
+ .last-blog{text-align: center;}
+ .blog-title{font-size: 3em;}
